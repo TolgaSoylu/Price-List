@@ -1,0 +1,18 @@
+@mixin float($value) {
+    width: $value;
+    position: relative;
+    float: left;
+}
+@mixin transform($value) {
+    -webkit-transform: $value;
+    -moz-transform: $value;
+    -ms-transform: $value;
+    -o-transform: $value;
+    transform: $value;
+}
+@mixin border-radius($radius) { 
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}

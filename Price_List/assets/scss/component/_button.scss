@@ -1,0 +1,12 @@
+.cardsButton{
+    @include border-radius(14px);
+    position: relative;
+    float: left;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background-color: #FFC208;
+    color: #5D36AF;
+    font-size: 14px;
+    text-decoration: none;
+    width: 100%;
+}

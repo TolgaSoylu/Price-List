@@ -1,0 +1,19 @@
+.rowFull{
+    @include float(100%);
+    position: relative;
+    margin: 0 auto;
+    .containerBlock{
+        position: relative;
+        width: 100%;
+        max-width: 1320px;
+        margin: 0 auto;
+        display: block;
+        .cardsScope{
+            @include float(100%);
+            @include border-radius(14px);
+            background-color: #FFF;
+            margin-top: 35%;
+            
+        }
+    }
+}
